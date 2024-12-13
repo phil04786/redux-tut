@@ -9,6 +9,6 @@ const mapDispatchToProps = (dispatch) => ({
   addToCartHandler: (data) => dispatch(addToCart(data)), //transferring :- component(data) to dispatch(action)
 });
 
-export default connect(mapStateToProps, mapDispatchToProps);
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
 
 // export default Home;
