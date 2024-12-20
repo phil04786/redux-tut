@@ -22,6 +22,15 @@ function Home(props) {
           >
             Add To Cart
           </button>
+
+          <button
+            className="remove-cart-btn"
+            onClick={() => {
+              props.removeToCartHandler({});
+            }}
+          >
+            Remove To Cart
+          </button>
         </div>
       </div>
     </div>
